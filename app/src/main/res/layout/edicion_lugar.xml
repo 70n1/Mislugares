@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/nombre"
             android:layout_below="@id/textView"
-            android:text="algo que identifique el lugar"
+            android:hint="algo que identifique el lugar"
             android:inputType="text" />
 
         <TextView
@@ -45,8 +45,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/dirección"
             android:layout_below="@id/textView3"
-            android:text="dirección del lugar"
-            android:inputType="text" />
+            android:hint="dirección del lugar"
+            android:inputType="textPostalAddress" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:id="@+id/telefono"
             android:layout_toRightOf="@id/textView5"
             android:layout_alignTop="@id/textView5"
-            android:text="teléfono para contactar"
+            android:hint="teléfono para contactar"
             android:inputType="phone" />
         <TextView
             android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/url"
             android:layout_below="@id/textView6"
-            android:text="página web"
+            android:hint="página web"
             android:inputType="textUri" />
         <TextView
             android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/comentario"
             android:layout_below="@id/textView7"
-            android:text="Introduce tus notas"
+            android:hint="Introduce tus notas"
             android:inputType="textMultiLine" />
 
     </RelativeLayout>
