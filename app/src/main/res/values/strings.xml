@@ -94,4 +94,15 @@
     <string name="referencias">Referencias</string>
     <string name="acerca_de">Acerca de</string>
     <string name="salir">Salir</string>
+    <string name="nombre">Nombre:</string>
+    <string name="algo_que_identifique_el_lugar">algo que identifique el lugar</string>
+    <string name="tipo">Tipo:</string>
+    <string name="direcci_n">Dirección:</string>
+    <string name="direcci_n_del_lugar">dirección del lugar</string>
+    <string name="tel_fono">Teléfono:</string>
+    <string name="tel_fono_para_contactar">teléfono para contactar</string>
+    <string name="url">URL:</string>
+    <string name="p_gina_web">página web</string>
+    <string name="comentario">Comentario:</string>
+    <string name="introduce_tus_notas">Introduce tus notas</string>
 </resources>

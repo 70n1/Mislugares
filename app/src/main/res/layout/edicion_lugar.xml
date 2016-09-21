@@ -10,7 +10,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nombre:"
+            android:text="@string/nombre"
             android:id="@+id/textView" />
 
         <EditText
@@ -18,13 +18,13 @@
             android:layout_height="wrap_content"
             android:id="@+id/nombre"
             android:layout_below="@id/textView"
-            android:hint="algo que identifique el lugar"
+            android:hint="@string/algo_que_identifique_el_lugar"
             android:inputType="text" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tipo: "
+            android:text="@string/tipo"
             android:id="@+id/textView2"
             android:layout_below="@+id/nombre" />
 
@@ -33,11 +33,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/tipo"
             android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
             android:layout_alignTop="@id/textView2"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dirección:"
+            android:text="@string/direcci_n"
             android:id="@+id/textView3"
             android:layout_below="@+id/tipo" />
         <EditText
@@ -45,12 +46,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/dirección"
             android:layout_below="@id/textView3"
-            android:hint="dirección del lugar"
+            android:hint="@string/direcci_n_del_lugar"
             android:inputType="textPostalAddress" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Teléfono: "
+            android:text="@string/tel_fono"
             android:id="@+id/textView5"
             android:layout_below="@+id/dirección" />
         <EditText
@@ -58,13 +59,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/telefono"
             android:layout_toRightOf="@id/textView5"
+            android:layout_toEndOf="@id/textView5"
             android:layout_alignTop="@id/textView5"
-            android:hint="teléfono para contactar"
+            android:hint="@string/tel_fono_para_contactar"
             android:inputType="phone" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="URL:"
+            android:text="@string/url"
             android:id="@+id/textView6"
             android:layout_below="@+id/telefono" />
         <EditText
@@ -72,12 +74,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/url"
             android:layout_below="@id/textView6"
-            android:hint="página web"
+            android:hint="@string/p_gina_web"
             android:inputType="textUri" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Comentario:"
+            android:text="@string/comentario"
             android:id="@+id/textView7"
             android:layout_below="@+id/url" />
         <EditText
@@ -85,7 +87,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/comentario"
             android:layout_below="@id/textView7"
-            android:hint="Introduce tus notas"
+            android:hint="@string/introduce_tus_notas"
             android:inputType="textMultiLine" />
 
     </RelativeLayout>
