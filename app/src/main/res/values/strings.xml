@@ -90,4 +90,8 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="mostrar_lugares">Mostrar lugares</string>
+    <string name="referencias">Referencias</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="salir">Salir</string>
 </resources>
