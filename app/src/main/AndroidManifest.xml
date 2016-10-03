@@ -22,6 +22,10 @@
             android:name=".VistaLugarActivity"
             android:label="@string/lugar"
             ></activity>
+        <activity
+            android:name=".EdicionLugarActivity"
+            android:label="@string/lugar"
+            ></activity>
     </application>
 
 </manifest>

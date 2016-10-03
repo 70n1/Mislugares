@@ -106,4 +106,8 @@
     <string name="comentario">Comentario:</string>
     <string name="introduce_tus_notas">Introduce tus notas</string>
     <string name="lugar">Lugar</string>
+    <string name="compartir">compartir</string>
+    <string name="como_llegar">cómo llegar</string>
+    <string name="editar">editar</string>
+    <string name="borrar">borrar</string>
 </resources>

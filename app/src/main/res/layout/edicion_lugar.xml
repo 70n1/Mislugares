@@ -44,7 +44,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/dirección"
+            android:id="@+id/direccion"
             android:layout_below="@id/textView3"
             android:hint="@string/direcci_n_del_lugar"
             android:inputType="textPostalAddress" />
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:text="@string/tel_fono"
             android:id="@+id/textView5"
-            android:layout_below="@+id/dirección" />
+            android:layout_below="@+id/direccion" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
