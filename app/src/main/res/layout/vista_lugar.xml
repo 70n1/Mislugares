@@ -43,7 +43,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:onClick="verMapa">
 
             <ImageView
                 android:id="@+id/logo_direccion"
@@ -64,7 +65,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:onClick="llamadaTelefono">
 
             <ImageView
                 android:id="@+id/logo_telefono"
@@ -85,7 +87,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:onClick="pgWeb">
 
             <ImageView
                 android:id="@+id/logo_url"
@@ -203,13 +206,25 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:contentDescription="logo cámara"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:onClick="tomarFoto"
+                    />
 
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:contentDescription="logo galería"
-                    android:src="@android:drawable/ic_menu_gallery" />
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:onClick="galeria"
+                    />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="Eliminar foto"
+                    android:onClick="eliminarFoto"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    />
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>
